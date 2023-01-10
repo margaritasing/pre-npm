@@ -1,8 +1,8 @@
 # DO-Product-Card
 
-Este es un paquete de pruebas de despliegue en NPM
+Este es un paquete de pruebas de despliegue en NPM, del curso de React Ts
 
-### Fernando Herrera
+### Margarita Sing
 
 ## Ejemplo
 ```
