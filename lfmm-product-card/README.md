@@ -1,33 +1,30 @@
-# TSDX React User Guide
+# DO-Product-Card
 
-## Este es un paquete de prueba de despligues en NPM
+Este es un paquete de pruebas de despliegue en NPM
 
-
-### Margarita Sing
+### Fernando Herrera
 
 ## Ejemplo
 ```
-import {ProductCart, ProductImage, ProductTitle title,ProductButton} from 'lfmm-product-cart'
-
+import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'do-product-card';
 ```
 
 ```
-<ProductCard key={product.id} 
-                product={ product }                 
-                initialValues={{
-                    count:4,
-                    maxCount:10
-                }}                                                     
-                >  
-                {
-                    ( {reset, count, increaseBy, isMaxCountReached, maxCount} ) => (
-                        <>
-                            <ProductImage />
-                            <ProductTitle title={"Coffee"} />    
-                            <ProductButton />  
-                                             
-                        </>
-                    )
-                }                
-                </ProductCard>  
+<ProductCard 
+    product={ product }
+    initialValues={{
+        count: 6,
+        // maxCount: 10,
+    }}
+>
+    {
+        ({ reset, count, isMaxCountReached, maxCount, increaseBy  }) => (
+            <>
+                <ProductImage />
+                <ProductTitle />
+                <ProductButtons />
+            </>
+        )
+    }
+</ProductCard>
 ```

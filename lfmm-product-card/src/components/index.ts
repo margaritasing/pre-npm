@@ -1,22 +1,21 @@
-import { ProductCard as ProductCardComponent } from './ProductCard';
+import { ProductCard as ProductCardHOC } from './ProductCard';
+import { ProductCardHOCProps } from '../interfaces/interfaces';
 
-import { ProductTitle } from './ProductTitle';
+import { ProductButtons } from './ProductButtons';
 import { ProductImage } from './ProductImage';
-import { ProductButton } from './ProductButton';
-import { ProductCardMainProps } from '../interfaces/interfaces';
+import { ProductTitle } from './ProductTitle';
 
-/* export { ProductCard } from './ProductCard'; */
-export { ProductButton } from './ProductButton';
+export { ProductButtons } from './ProductButtons';
 export { ProductImage } from './ProductImage';
 export { ProductTitle } from './ProductTitle';
 
 
-/* Aqui se usan los import */
- export const ProductCard: ProductCardMainProps = Object.assign(ProductCardComponent,{
+export const ProductCard: ProductCardHOCProps = Object.assign( ProductCardHOC, {
     Title: ProductTitle,
     Image: ProductImage,
-    Buttons: ProductButton
- })
+    Buttons: ProductButtons
+})
 
 
- export default ProductCard;
+export default ProductCard;
+
