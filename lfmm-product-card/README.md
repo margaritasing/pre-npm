@@ -6,7 +6,7 @@ Este es un paquete de pruebas de despliegue en NPM, del curso de React Ts
 
 ## Ejemplo
 ```
-import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'do-product-card';
+import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'lfmm-product-card';
 ```
 
 ```
@@ -14,7 +14,7 @@ import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'do-prod
     product={ product }
     initialValues={{
         count: 6,
-        // maxCount: 10,
+         maxCount: 10,
     }}
 >
     {
@@ -28,3 +28,5 @@ import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'do-prod
     }
 </ProductCard>
 ```
+
+## Configuraciòn de un carrito de compras 
