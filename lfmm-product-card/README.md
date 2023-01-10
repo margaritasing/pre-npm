@@ -1,4 +1,4 @@
-# DO-Product-Card
+# lfmm-product-card
 
 Este es un paquete de pruebas de despliegue en NPM, del curso de React Ts
 
