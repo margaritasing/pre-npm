@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-rc",
+  "version": "1.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,10 +8,10 @@
     "src"
   ],
   "repository": {
-    "url": "https://github.com/Klerith/do-product-card",
+    "url": "https://github.com/margaritasing/pre-npm/tree/main/lfmm-product-card",
     "type": "git"
   },
-  "homepage": "https://fernando-herrera.com",
+  "homepage": "https://portafoliolibiamfreitesm.web.app/",
   "engines": {
     "node": ">=10"
   },
@@ -39,27 +39,27 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "do-product-card",
-  "author": "Fernando Herrera",
-  "module": "dist/do-product-card.esm.js",
+  "name": "lfmm-product-card",
+  "author": "Margarita Sing",
+  "module": "dist/lfmm-product-card.esm.js",
   "size-limit": [
     {
-      "path": "dist/do-product-card.cjs.production.min.js",
+      "path": "dist/lfmm-product-card.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/do-product-card.esm.js",
+      "path": "dist/lfmm-product-card.esm.js",
       "limit": "10 KB"
     }
   ],
   "devDependencies": {
-    "@types/react-test-renderer": "^17.0.1",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-react": "^7.14.5",
     "@rollup/plugin-image": "^2.1.1",
     "@size-limit/preset-small-lib": "^5.0.5",
     "@types/react": "^17.0.26",
     "@types/react-dom": "^17.0.9",
+    "@types/react-test-renderer": "^17.0.1",
     "babel-jest": "^27.2.4",
     "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
@@ -76,12 +76,11 @@
   "keywords": [
     "product",
     "card",
-    "fernando",
-    "herrera"
+    "libia",
+    "freites",
+    "shopping"
   ],
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
