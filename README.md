@@ -5,8 +5,16 @@ Este es un paquete de pruebas de despliegue en NPM, del curso de React Ts
 ### Margarita Sing
 
 ## Ejemplo
+
 ```
 import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'lfmm-product-card';
+
+Ejemplo del producto : const product = {
+                            id:'1',
+                            title:'Nombre - Card',
+                            img:'./imagen.png'
+                        }
+
 ```
 
 ```
